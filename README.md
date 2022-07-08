@@ -1,0 +1,1 @@
+# appd-ionic-capacitor-plugin-testapp
