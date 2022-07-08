@@ -1,0 +1,53 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>user data</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Test User Data Function</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-item>
+          <ion-label position="floating">New User Data Key:</ion-label>
+
+          <ion-input
+            id="userDataKey"
+            [(ngModel)]="userDataKey"
+            placeholder="Key"
+            type="text"
+            style="border: solid 1px #000"
+          ></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-label position="floating">New User Data Value:</ion-label>
+          <ion-input
+            id="userDataValue"
+            [(ngModel)]="userDataValue"
+            placeholder="Value"
+            type="text"
+            style="border: solid 1px #000"
+          ></ion-input>
+        </ion-item>
+        <ion-item>
+          <ion-button id="userDataCreate" fill="outline" (click)="newUserData()"
+            >Create New UserData</ion-button
+          >
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-list *ngFor="let data of userData">
+      <ion-item> {{ data.key }}: {{ data.value}} </ion-item>
+      <ion-item>
+        <ion-button id="removeUserData" fill="outline" (click)="removeUserData(data.key)">remove</ion-button>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>

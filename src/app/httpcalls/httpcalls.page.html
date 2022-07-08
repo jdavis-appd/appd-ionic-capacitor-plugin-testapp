@@ -1,0 +1,54 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home"></ion-back-button>
+    </ion-buttons>
+    <ion-title>httpcalls</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div id="container">
+    <ion-card>
+      <ion-card-header>
+        <ion-card-title>Test httpcall Function</ion-card-title>
+      </ion-card-header>
+      <ion-card-content>
+        <ion-item>
+          <ion-label position="floating">New Http Call:</ion-label>
+
+          <ion-input
+            id="httpUrl"
+            [(ngModel)]="httpUrl"
+            placeholder="url"
+            type="text"
+            style="border: solid 1px #000"
+          ></ion-input>
+
+          <ion-button id="httpCreate" fill="outline" (click)="newHttp()"
+            >Create New Http Call</ion-button
+          >
+        </ion-item>
+      </ion-card-content>
+    </ion-card>
+
+    <ion-list *ngFor="let httpCall of httpCalls">
+      <ion-item>Tracking ID: {{ httpCall.http_tracker }}: {{ httpCall.url}} </ion-item>
+      <ion-item>Url: {{ httpCall.url}} </ion-item>
+      <ion-item>
+        <ion-label position="floating">{{httpCall.statusCode}}</ion-label>
+        <ion-input
+            id="{{ httpCall.http_tracker }}_statusCode"
+            [(ngModel)]="statusCode"
+            placeholder="404"
+            type="number"
+            style="border: solid 1px #000"
+          ></ion-input>
+          <ion-button id="{{ httpCall.http_tracker }}_statusCodeBtn" fill="outline" (click)="statusCodeHttp(httpCall.http_tracker)">Set Status</ion-button>
+      </ion-item>
+      <ion-item>
+        <ion-button id="endHttp" fill="outline" (click)="endHttp(httpCall.http_tracker)">End</ion-button>
+      </ion-item>
+    </ion-list>
+  </div>
+</ion-content>
