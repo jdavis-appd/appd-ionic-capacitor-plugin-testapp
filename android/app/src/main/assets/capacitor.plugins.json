@@ -18,9 +18,5 @@
 	{
 		"pkg": "appd-ionic-capacitor-plugin",
 		"classpath": "com.appdynamics.appd.mrum.plugins.ionic.ADEUMMobileCapacitorPluginPlugin"
-	},
-	{
-		"pkg": "cap-demo-plugin",
-		"classpath": "io.ionic.demoplugin.DemoPlugin"
 	}
 ]

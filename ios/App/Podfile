@@ -15,7 +15,6 @@ def capacitor_pods
   pod 'CapacitorKeyboard', :path => '../../node_modules/@capacitor/keyboard'
   pod 'CapacitorStatusBar', :path => '../../node_modules/@capacitor/status-bar'
   pod 'AppdIonicCapacitorPlugin', :path => '../../../appd-ionic-capacitor-plugin'
-  pod 'CapDemoPlugin', :path => '../../../cap-demo-plugin-with-test-apps/packages/cap-demo-plugin'
 end
 
 def appd_agent_pods
