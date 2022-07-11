@@ -1,10 +1,10 @@
 "use strict";
 (self["webpackChunkapp"] = self["webpackChunkapp"] || []).push([["default-appd-ionic-capacitor-plugin_dist_esm_index_js"],{
 
-/***/ 7065:
-/*!********************************************************************!*\
-  !*** ../../../appd-ionic-capacitor-plugin/dist/esm/definitions.js ***!
-  \********************************************************************/
+/***/ 2402:
+/*!**************************************************************!*\
+  !*** ../appd-ionic-capacitor-plugin/dist/esm/definitions.js ***!
+  \**************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -14,21 +14,21 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 8970:
-/*!**************************************************************!*\
-  !*** ../../../appd-ionic-capacitor-plugin/dist/esm/index.js ***!
-  \**************************************************************/
+/***/ 9919:
+/*!********************************************************!*\
+  !*** ../appd-ionic-capacitor-plugin/dist/esm/index.js ***!
+  \********************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ADEUMMobileCapacitorPlugin": () => (/* binding */ ADEUMMobileCapacitorPlugin)
 /* harmony export */ });
-/* harmony import */ var _capacitor_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @capacitor/core */ 6624);
-/* harmony import */ var _definitions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./definitions */ 7065);
+/* harmony import */ var _capacitor_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @capacitor/core */ 3256);
+/* harmony import */ var _definitions__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./definitions */ 2402);
 
 const ADEUMMobileCapacitorPlugin = (0,_capacitor_core__WEBPACK_IMPORTED_MODULE_0__.registerPlugin)('ADEUMMobileCapacitorPlugin', {
-    web: () => __webpack_require__.e(/*! import() */ "appd-ionic-capacitor-plugin_dist_esm_web_js").then(__webpack_require__.bind(__webpack_require__, /*! ./web */ 7052)).then(m => new m.ADEUMMobileCapacitorPluginWeb()),
+    web: () => __webpack_require__.e(/*! import() */ "appd-ionic-capacitor-plugin_dist_esm_web_js").then(__webpack_require__.bind(__webpack_require__, /*! ./web */ 6299)).then(m => new m.ADEUMMobileCapacitorPluginWeb()),
 });
 
 
@@ -36,10 +36,10 @@ const ADEUMMobileCapacitorPlugin = (0,_capacitor_core__WEBPACK_IMPORTED_MODULE_0
 
 /***/ }),
 
-/***/ 6624:
-/*!***************************************************************************************!*\
-  !*** ../../../appd-ionic-capacitor-plugin/node_modules/@capacitor/core/dist/index.js ***!
-  \***************************************************************************************/
+/***/ 3256:
+/*!*********************************************************************************!*\
+  !*** ../appd-ionic-capacitor-plugin/node_modules/@capacitor/core/dist/index.js ***!
+  \*********************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -56,7 +56,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "registerWebPlugin": () => (/* binding */ registerWebPlugin),
 /* harmony export */   "setPlatform": () => (/* binding */ setPlatform)
 /* harmony export */ });
-/* harmony import */ var _Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
+/* harmony import */ var _Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
 
 
 /*! Capacitor: https://capacitorjs.com/ - MIT License */
@@ -242,7 +242,7 @@ const createCapacitor = win => {
     let jsImplementation;
 
     const loadPluginImplementation = /*#__PURE__*/function () {
-      var _ref = (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      var _ref = (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         if (!jsImplementation && platform in jsImplementations) {
           jsImplementation = typeof jsImplementations[platform] === 'function' ? jsImplementation = yield jsImplementations[platform]() : jsImplementation = jsImplementations[platform];
         } else if (capCustomPlatform !== null && !jsImplementation && 'web' in jsImplementations) {
@@ -296,7 +296,7 @@ const createCapacitor = win => {
         });
 
         if (prop === 'addListener') {
-          p.remove = /*#__PURE__*/(0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+          p.remove = /*#__PURE__*/(0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
             return remove();
           });
         }
@@ -324,7 +324,7 @@ const createCapacitor = win => {
       }, callback);
 
       const remove = /*#__PURE__*/function () {
-        var _ref3 = (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+        var _ref3 = (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
           const callbackId = yield call;
           removeListener({
             eventName,
@@ -340,7 +340,7 @@ const createCapacitor = win => {
       const p = new Promise(resolve => call.then(() => resolve({
         remove
       })));
-      p.remove = /*#__PURE__*/(0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      p.remove = /*#__PURE__*/(0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         console.warn(`Using addListener() without 'await' is deprecated.`);
         yield remove();
       });
@@ -459,7 +459,7 @@ class WebPlugin {
     }
 
     const remove = /*#__PURE__*/function () {
-      var _ref5 = (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+      var _ref5 = (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
         return _this.removeListener(eventName, listenerFunc);
       });
 
@@ -473,7 +473,7 @@ class WebPlugin {
     });
     Object.defineProperty(p, 'remove', {
       value: function () {
-        var _ref6 = (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+        var _ref6 = (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
           console.warn(`Using addListener() without 'await' is deprecated.`);
           yield remove();
         });
@@ -489,7 +489,7 @@ class WebPlugin {
   removeAllListeners() {
     var _this2 = this;
 
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       _this2.listeners = {};
 
       for (const listener in _this2.windowListeners) {
@@ -534,7 +534,7 @@ class WebPlugin {
   removeListener(eventName, listenerFunc) {
     var _this3 = this;
 
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       const listeners = _this3.listeners[eventName];
 
       if (!listeners) {

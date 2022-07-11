@@ -15,7 +15,7 @@ include ':capacitor-status-bar'
 project(':capacitor-status-bar').projectDir = new File('../node_modules/@capacitor/status-bar/android')
 
 include ':appd-ionic-capacitor-plugin'
-project(':appd-ionic-capacitor-plugin').projectDir = new File('../../../../appd-ionic-capacitor-plugin/android')
+project(':appd-ionic-capacitor-plugin').projectDir = new File('../../appd-ionic-capacitor-plugin/android')
 
 include ':cap-demo-plugin'
-project(':cap-demo-plugin').projectDir = new File('../../cap-demo-plugin/android')
+project(':cap-demo-plugin').projectDir = new File('../../cap-demo-plugin-with-test-apps/packages/cap-demo-plugin/android')

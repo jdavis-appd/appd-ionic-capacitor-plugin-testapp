@@ -1,19 +1,19 @@
 "use strict";
 (self["webpackChunkapp"] = self["webpackChunkapp"] || []).push([["appd-ionic-capacitor-plugin_dist_esm_web_js"],{
 
-/***/ 7052:
-/*!************************************************************!*\
-  !*** ../../../appd-ionic-capacitor-plugin/dist/esm/web.js ***!
-  \************************************************************/
+/***/ 6299:
+/*!******************************************************!*\
+  !*** ../appd-ionic-capacitor-plugin/dist/esm/web.js ***!
+  \******************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "ADEUMMobileCapacitorPluginWeb": () => (/* binding */ ADEUMMobileCapacitorPluginWeb)
 /* harmony export */ });
-/* harmony import */ var _Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
-/* harmony import */ var _capacitor_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @capacitor/core */ 6624);
-/* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! uuid */ 3956);
+/* harmony import */ var _Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./node_modules/@babel/runtime/helpers/esm/asyncToGenerator.js */ 1670);
+/* harmony import */ var _capacitor_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @capacitor/core */ 3256);
+/* harmony import */ var uuid__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! uuid */ 2110);
 
 
 
@@ -23,56 +23,56 @@ class ADEUMMobileCapacitorPluginWeb extends _capacitor_core__WEBPACK_IMPORTED_MO
   }
 
   echo(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('ECHO', options);
       return options;
     })();
   }
 
   startTimer(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('startTimer', options);
       return;
     })();
   }
 
   stopTimer(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('stopTimer', options);
       return;
     })();
   }
 
   reportMetricWithName(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('reportMetricWithName', options);
       return;
     })();
   }
 
   leaveBreadcrumb(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('leaveBreadcrumb', options);
       return;
     })();
   }
 
   setUserData(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('setUserData', options);
       return;
     })();
   }
 
   removeUserData(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('removeUserData', options);
       return;
     })();
   }
 
   beginCall(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('beginCall', options);
       return {
         call_tracker: (0,uuid__WEBPACK_IMPORTED_MODULE_2__["default"])()
@@ -81,14 +81,14 @@ class ADEUMMobileCapacitorPluginWeb extends _capacitor_core__WEBPACK_IMPORTED_MO
   }
 
   endCall(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('endCall', options);
       return;
     })();
   }
 
   beginHttpRequest(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('beginHttpRequest', options);
       return {
         http_tracker: (0,uuid__WEBPACK_IMPORTED_MODULE_2__["default"])()
@@ -97,63 +97,63 @@ class ADEUMMobileCapacitorPluginWeb extends _capacitor_core__WEBPACK_IMPORTED_MO
   }
 
   reportDone(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('reportDone', options);
       return;
     })();
   }
 
   withResponseCode(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('withResponseCode', options);
       return;
     })();
   }
 
   withResponseContentLength(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('withResponseContentLength', options);
       return;
     })();
   }
 
   withRequestContentLength(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('withRequestContentLength', options);
       return;
     })();
   }
 
   withResponseHeaderFields(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('withResponseHeaderFields', options);
       return;
     })();
   }
 
   withRequestHeaderFields(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('withRequestHeaderFields', options);
       return;
     })();
   }
 
   withInstrumentationSource(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('withInstrumentationSource', options);
       return;
     })();
   }
 
   withErrorMessage(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('withErrorMessage', options);
       return;
     })();
   }
 
   getCorrelationHeaders() {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('getCorrelationHeaders');
       return {
         headers: new Map()
@@ -162,28 +162,28 @@ class ADEUMMobileCapacitorPluginWeb extends _capacitor_core__WEBPACK_IMPORTED_MO
   }
 
   startNextSession() {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('startNextSession');
       return;
     })();
   }
 
   unblockScreenshots() {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('unblockScreenshots');
       return;
     })();
   }
 
   blockScreenshots() {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('blockScreenshots');
       return;
     })();
   }
 
   screenshotsBlocked() {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('screenshotsBlocked');
       return {
         screenshots_blocked: false
@@ -192,14 +192,14 @@ class ADEUMMobileCapacitorPluginWeb extends _capacitor_core__WEBPACK_IMPORTED_MO
   }
 
   takeScreenshot() {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('takeScreenshot');
       return;
     })();
   }
 
   startSessionFrame(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('should be running');
       console.log('startSessionFrame', options);
       return {
@@ -209,14 +209,14 @@ class ADEUMMobileCapacitorPluginWeb extends _capacitor_core__WEBPACK_IMPORTED_MO
   }
 
   endSessionFrame(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('endSessionFrame', options);
       return;
     })();
   }
 
   updateSessionFrameName(options) {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('updateSessionFrameName', options);
       return {
         session_frame: options.session_frame
@@ -225,7 +225,7 @@ class ADEUMMobileCapacitorPluginWeb extends _capacitor_core__WEBPACK_IMPORTED_MO
   }
 
   getVersion() {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('getVersion: 1.1.1');
       return {
         version: '1.1.1'
@@ -234,7 +234,7 @@ class ADEUMMobileCapacitorPluginWeb extends _capacitor_core__WEBPACK_IMPORTED_MO
   }
 
   clear() {
-    return (0,_Users_jeremyda_ionic_plugin_cap_demo_plugin_with_test_apps_packages_test_app_capacitor_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
+    return (0,_Users_jeremyda_ionic_plugin_appd_ionic_capacitor_plugin_testapp_node_modules_babel_runtime_helpers_esm_asyncToGenerator_js__WEBPACK_IMPORTED_MODULE_0__["default"])(function* () {
       console.log('clear');
       return;
     })();
@@ -244,10 +244,10 @@ class ADEUMMobileCapacitorPluginWeb extends _capacitor_core__WEBPACK_IMPORTED_MO
 
 /***/ }),
 
-/***/ 891:
-/*!****************************************************************************************!*\
-  !*** ../../../appd-ionic-capacitor-plugin/node_modules/uuid/dist/esm-browser/regex.js ***!
-  \****************************************************************************************/
+/***/ 9527:
+/*!**********************************************************************************!*\
+  !*** ../appd-ionic-capacitor-plugin/node_modules/uuid/dist/esm-browser/regex.js ***!
+  \**********************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -258,10 +258,10 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 6243:
-/*!**************************************************************************************!*\
-  !*** ../../../appd-ionic-capacitor-plugin/node_modules/uuid/dist/esm-browser/rng.js ***!
-  \**************************************************************************************/
+/***/ 3040:
+/*!********************************************************************************!*\
+  !*** ../appd-ionic-capacitor-plugin/node_modules/uuid/dist/esm-browser/rng.js ***!
+  \********************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -290,17 +290,17 @@ function rng() {
 
 /***/ }),
 
-/***/ 5084:
-/*!********************************************************************************************!*\
-  !*** ../../../appd-ionic-capacitor-plugin/node_modules/uuid/dist/esm-browser/stringify.js ***!
-  \********************************************************************************************/
+/***/ 2789:
+/*!**************************************************************************************!*\
+  !*** ../appd-ionic-capacitor-plugin/node_modules/uuid/dist/esm-browser/stringify.js ***!
+  \**************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _validate_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./validate.js */ 1410);
+/* harmony import */ var _validate_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./validate.js */ 5034);
 
 /**
  * Convert array of 16 byte values to UUID string format of the form:
@@ -334,18 +334,18 @@ function stringify(arr) {
 
 /***/ }),
 
-/***/ 3956:
-/*!*************************************************************************************!*\
-  !*** ../../../appd-ionic-capacitor-plugin/node_modules/uuid/dist/esm-browser/v4.js ***!
-  \*************************************************************************************/
+/***/ 2110:
+/*!*******************************************************************************!*\
+  !*** ../appd-ionic-capacitor-plugin/node_modules/uuid/dist/esm-browser/v4.js ***!
+  \*******************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _rng_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./rng.js */ 6243);
-/* harmony import */ var _stringify_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./stringify.js */ 5084);
+/* harmony import */ var _rng_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./rng.js */ 3040);
+/* harmony import */ var _stringify_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./stringify.js */ 2789);
 
 
 
@@ -373,17 +373,17 @@ function v4(options, buf, offset) {
 
 /***/ }),
 
-/***/ 1410:
-/*!*******************************************************************************************!*\
-  !*** ../../../appd-ionic-capacitor-plugin/node_modules/uuid/dist/esm-browser/validate.js ***!
-  \*******************************************************************************************/
+/***/ 5034:
+/*!*************************************************************************************!*\
+  !*** ../appd-ionic-capacitor-plugin/node_modules/uuid/dist/esm-browser/validate.js ***!
+  \*************************************************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _regex_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./regex.js */ 891);
+/* harmony import */ var _regex_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./regex.js */ 9527);
 
 
 function validate(uuid) {
